@@ -84,6 +84,64 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*---------------------------General styles------------------------------*/
+body{
+  font-size: 16px;
+  font-style: s;
+}
+
+h3 {
+  font-family: 'Michroma';
+  font-size: 1.125em;
+}
+
+h2 {
+  font-family: montserrat;
+  font-size: 1.5em;
+}
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  background: url(c:\Users\Jdoga\Pictures\jason-pischke-YfoxivJxNT4-unsplash.jpg) no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+
+
+.home-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#work, #developer-skills, #about, #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row-wrap;
+}
+
+h1 {
+    font-family: michroma;
+    font-size: 2em;
+}
+.portfolio-piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
