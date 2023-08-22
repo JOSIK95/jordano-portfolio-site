@@ -136,6 +136,21 @@ h1 {
     justify-content: space-evenly;
 
 }
+
+img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px;
+}
+
+#about img{
+  width: 30%;
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
