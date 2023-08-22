@@ -85,10 +85,12 @@ textarea {
    ========================================================================== */
 
 /*---------------------------General styles------------------------------*/
-body{
-  font-size: 16px;
-  font-style: s;
+
+html{
+    font-size: 16px;
 }
+
+
 
 h3 {
   font-family: 'Michroma';
@@ -99,15 +101,11 @@ h2 {
   font-family: montserrat;
   font-size: 1.5em;
 }
-body {
-  font-size: 16px;
-  font-family: sans-serif;
-  background: url('img/c:/Users/Jdoga/Pictures/julius-drost-pYAvBZvplOM-unsplash.jpg') no-repeat;
-  background-size: cover;
-  opacity: 0.5;
+
+h1 {
+  font-family: michroma;
+  font-size: 2em;
 }
-
-
 
 .home-title {
   display: flex;
@@ -126,10 +124,6 @@ body {
     flex-flow: row-wrap;
 }
 
-h1 {
-    font-family: michroma;
-    font-size: 2em;
-}
 .portfolio-piece {
     display: flex;
     flex-direction: column;
@@ -141,7 +135,7 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
 
-
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
