@@ -88,6 +88,7 @@ textarea {
 
 html{
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 
@@ -96,6 +97,13 @@ h3 {
 font-family: 'Michroma';
 font-size: 1.125em;
 }
+
+#about h3 {
+  font-family: 'Michroma';
+  font-size: 2em;
+  color: #0092d1;
+}
+
 
 h2 {
 font-family: montserrat;
@@ -145,17 +153,35 @@ margin-right: auto;
 box-shadow: 0 4px 8px;
 }
 
-#about img{
-width: 30%;
-box-shadow: none;
-border-radius: 50%;
+#about img {
+  width: 80%;
+  box-shadow: none;
+  border-radius: 50%;
+  border: inset;
+  border-color: #0092d1;
+}
+
+.about-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+.button {
+  background-color: black;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  border-radius: 12px;
+  text-align: center;
+  font-variant: all-small-caps;
 }
 
 
-
-
-
-
+a{
+  text-decoration: none;
+  color: ghostwhite;
+}
 
 /* ==========================================================================
    Helper classes
