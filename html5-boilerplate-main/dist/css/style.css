@@ -141,8 +141,9 @@ justify-content: center;
 }
 .content-wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -197,7 +198,9 @@ a{
   font-size: 1.5em;
 }
 
-
+#contact p{
+  text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
