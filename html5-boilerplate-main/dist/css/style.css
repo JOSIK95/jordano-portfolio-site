@@ -155,11 +155,12 @@ border-radius: 12px;
 }
 
 #about img {
-  width: 50%;
+  width: 30%;
   box-shadow: none;
   border-radius: 50%;
   border: inset;
   border-color: #0092d1;
+  float: right;
 }
 
 .about-content-wrapper {
@@ -184,7 +185,16 @@ a{
   color: ghostwhite;
 }
 
+#developer-skills ul {
+  list-style: none;
+  font-size: 6em;
+  display: flex;
+  flex-direction: row;
+}
 
+.tool-wrapper {
+  font-size: 1.5em;
+}
 
 
 /* ==========================================================================
