@@ -101,7 +101,7 @@ font-size: 1.125em;
 #about h3 {
   font-family: 'Michroma';
   font-size: 2em;
-  color: #0092d1;
+  color: #00ccff;
 }
 
 
@@ -110,9 +110,25 @@ font-family: montserrat;
 font-size: 1.5em;
 }
 
+header h2{
+  color: ghostwhite;
+}
+
+header span{
+  font-style: italic;
+}
+header{
+  background-color: #353839;
+}
+
+.content-wrapper li{
+  display: inline-block;
+}
+
 h1 {
 font-family: michroma;
 font-size: 2em;
+color: #00ccff;
 }
 
 .home-title {
@@ -133,7 +149,7 @@ justify-content: center;
 }
 
 
-.portfolio-header{
+h3.portfolio-header{
   font-size: 2em;
   text-decoration: underline;
 }
@@ -151,6 +167,9 @@ justify-content: center;
   align-items: center;
 
 }
+.portfolio-wrapper{
+  text-align: center;
+}
 
 img {
 display: block;
@@ -166,7 +185,7 @@ border-radius: 12px;
   box-shadow: none;
   border-radius: 50%;
   border: inset;
-  border-color: #0092d1;
+  border-color: #00ccff;
   float: right;
 }
 
@@ -192,6 +211,10 @@ a{
   color: ghostwhite;
 }
 
+#developer-skills{
+  background-color: #353839;
+}
+
 #developer-skills ul {
   list-style: none;
   font-size: 8em;
@@ -200,11 +223,11 @@ a{
   justify-content: space-around;
 }
 
-#developer-skills li{
+li{
   margin-right: 130px;
 }
 
-#developer-skills h3{
+h3.skills-header{
   font-size: 2em;
   text-decoration: underline;
 }
@@ -212,6 +235,7 @@ a{
 
 .tool-wrapper {
   font-size: 1.5em;
+  margin-bottom: 50px;
 }
 
 #contact p{
