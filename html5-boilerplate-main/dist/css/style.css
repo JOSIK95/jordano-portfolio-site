@@ -229,19 +229,41 @@ li{
 h3.skills-header{
   font-size: 2em;
   text-decoration: underline;
+  color: ghostwhite;
 }
 
 
 .tool-wrapper {
   font-size: 1.5em;
   margin-bottom: 50px;
+  color: ghostwhite;
 }
 
 #contact p{
   text-align: center;
 }
 
+h3.contact-title{
+  text-align: center;
+}
 
+ul.social-icons li{
+  margin-right: 40px;
+  font-size: 3em;
+}
+
+#contact{
+  background-color: #000;
+}
+
+#contact p{
+  color: ghostwhite;
+
+}
+
+#contact h3{
+  color: #adadad;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
