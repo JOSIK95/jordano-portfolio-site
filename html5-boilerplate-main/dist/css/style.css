@@ -132,6 +132,12 @@ justify-content: center;
   flex-flow: row-wrap;
 }
 
+
+.portfolio-header{
+  font-size: 2em;
+  text-decoration: underline;
+}
+
 .portfolio-piece {
   display: flex;
   flex-direction: column;
@@ -188,10 +194,21 @@ a{
 
 #developer-skills ul {
   list-style: none;
-  font-size: 6em;
+  font-size: 8em;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
+
+#developer-skills li{
+  margin-right: 130px;
+}
+
+#developer-skills h3{
+  font-size: 2em;
+  text-decoration: underline;
+}
+
 
 .tool-wrapper {
   font-size: 1.5em;
