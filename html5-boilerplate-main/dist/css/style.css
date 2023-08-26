@@ -204,6 +204,13 @@ border-radius: 12px;
   text-align: center;
   font-variant: all-small-caps;
 }
+#work{
+background: url('c:/Users/Jdoga/Documents/jordano-portfolio-site/html5-boilerplate-main/img/iStock-1215741500.jpg');
+background-repeat: no-repeat;
+background-size: auto;
+opacity: 0.5;
+}
+
 
 
 a{
@@ -265,6 +272,8 @@ ul.social-icons li{
 #contact h3{
   color: #adadad;
 }
+
+
 
 /* ==========================================================================
    Helper classes
