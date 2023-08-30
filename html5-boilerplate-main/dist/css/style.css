@@ -117,7 +117,7 @@ header span{
   font-style: italic;
 }
 header{
-  background-color: #353839;
+  background-color: black;
 }
 
 .content-wrapper li{
@@ -151,6 +151,7 @@ justify-content: center;
 h3.portfolio-header{
   font-size: 2em;
   text-decoration: underline;
+  color: ghostwhite;
 }
 
 .portfolio-piece {
@@ -158,6 +159,21 @@ h3.portfolio-header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+p.project-description{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: ghostwhite;
+}
+p.skills{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: ghostwhite;
+}
+p.tools{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: ghostwhite;
 }
 .content-wrapper {
   display: flex;
@@ -178,6 +194,9 @@ margin-right: auto;
 box-shadow: 0 4px 8px;
 border-radius: 12px;
 }
+#about h2{
+  color: black;
+ }
 
 #about img {
   width: 30%;
@@ -211,7 +230,7 @@ a{
 }
 
 #developer-skills{
-  background-color: #353839;
+  background-color: black;
 }
 
 #developer-skills ul {
