@@ -264,6 +264,14 @@ ul.social-icons li{
 #contact h3{
   color: #adadad;
 }
+#work{
+  background-image: url(../img/iStock-1215741500.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
