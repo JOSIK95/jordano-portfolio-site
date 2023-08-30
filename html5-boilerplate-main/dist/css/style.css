@@ -347,7 +347,11 @@ ul.social-icons li{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 768px) {
+header ul{
+  padding-top:20px;
+}
+
   /* Style adjustments for viewports that meet the condition */
 }
 
