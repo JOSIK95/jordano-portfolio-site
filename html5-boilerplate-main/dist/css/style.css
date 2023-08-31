@@ -119,6 +119,13 @@ header span{
 header{
   background-color: black;
 }
+nav li{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+nav ul{
+  padding-inline-start: 0px;
+}
 
 .content-wrapper li{
   display: inline-block;
@@ -217,6 +224,7 @@ border-radius: 12px;
   border: inset;
   border-color: #00ccff;
   float: right;
+  margin-left: 15px;
 }
 
 .about-content-wrapper {
@@ -229,8 +237,9 @@ border-radius: 12px;
 }
 .about-text{
   font-size: 1.125em;
+  font-family: sans-serif;
 }
-.about-span{
+span{
   font-size: 1.125em;
   font-style: italic;
 }
@@ -267,9 +276,6 @@ margin-left: 60px;
 margin-right: 60px;
 }
 
-li{
-  margin-right: 130px;
-}
 
 h3.skills-header{
   font-size: 2em;
