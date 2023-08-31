@@ -101,6 +101,7 @@ font-size: 1.125em;
   font-family: 'Michroma';
   font-size: 2em;
   color: #00ccff;
+  text-align: center;
 }
 
 
@@ -111,6 +112,8 @@ font-size: 1.5em;
 
 header h2{
   color: ghostwhite;
+  text-align: center;
+  margin: 20px;
 }
 
 header span{
@@ -120,8 +123,8 @@ header{
   background-color: black;
 }
 nav li{
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 nav ul{
   padding-inline-start: 0px;
@@ -135,6 +138,9 @@ h1 {
 font-family: michroma;
 font-size: 2em;
 color: #00ccff;
+text-align:center;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .home-title {
@@ -163,6 +169,8 @@ h3.portfolio-header{
   font-size: 2em;
   text-decoration: underline;
   color: ghostwhite;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .portfolio-piece {
@@ -172,7 +180,7 @@ h3.portfolio-header{
   justify-content: center;
 }
 p.project-description{
-  font-size: 1.5em;
+  font-size: 1.125em;
   font-family: sans-serif;
   color: ghostwhite;
   background-color: rgba(10,5,0,.5);
@@ -185,12 +193,12 @@ p.project-description{
 }
 
 p.skills{
-  font-size: 1.5em;
+  font-size: 1.125em;
   font-family: sans-serif;
   color: ghostwhite;
 }
 p.tools{
-  font-size: 1.5em;
+  font-size: 1.125em;
   font-family: sans-serif;
   color: ghostwhite;
 }
@@ -207,7 +215,7 @@ p.tools{
 
 img {
 display: block;
-width: 80%;
+width: 95%;
 margin-left: auto;
 margin-right: auto;
 box-shadow: 0 4px 8px;
@@ -215,16 +223,16 @@ border-radius: 12px;
 }
 #about h2{
   color: black;
+  text-align: center;
  }
 
 #about img {
-  width: 25%;
+  width: 50%;
   box-shadow: none;
   border-radius: 50%;
   border: inset;
   border-color: #00ccff;
-  float: right;
-  margin-left: 15px;
+  
 }
 
 .about-content-wrapper {
@@ -238,6 +246,10 @@ border-radius: 12px;
 .about-text{
   font-size: 1.125em;
   font-family: sans-serif;
+  text-align: center;
+}
+#about p{
+  text-align: center;
 }
 span{
   font-size: 1.125em;
@@ -246,11 +258,12 @@ span{
 
 .button {
   background-color: black;
-  font-size: 1.5em;
+  font-size: 1.125em;
   font-family: sans-serif;
   border-radius: 12px;
   text-align: center;
   font-variant: all-small-caps;
+  margin-bottom: 30px;
 }
 
 
@@ -269,11 +282,14 @@ a{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding-inline-start: 0px;
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em;
 }
 
 .language-wrapper li{
-margin-left: 60px;
-margin-right: 60px;
+margin-left: 9px;
+margin-right: 9px;
 }
 
 
@@ -286,7 +302,7 @@ h3.skills-header{
 
 .tool-wrapper {
   font-size: 1.5em;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: ghostwhite;
 }
 
@@ -407,11 +423,246 @@ ul.social-icons li{
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-header ul{
-  padding-top:20px;
-}
+  /*---------------------------------Tablet Styles---------------------------------*/
+
+
 
   /* Style adjustments for viewports that meet the condition */
+}
+@media (min-width: 1200px){
+  /*---------------------------------Desktop Styles---------------------------------*/
+
+
+  h3 {
+    font-family: 'Michroma';
+    font-size: 1.125em;
+    }
+    
+    #about h3 {
+      font-family: 'Michroma';
+      font-size: 2em;
+      color: #00ccff;
+    }
+    
+    
+    h2 {
+    font-family: montserrat;
+    font-size: 1.5em;
+    }
+    
+    header h2{
+      color: ghostwhite;
+    }
+    
+    header span{
+      font-style: italic;
+    }
+    header{
+      background-color: black;
+    }
+    nav li{
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    nav ul{
+      padding-inline-start: 0px;
+    }
+    
+    .content-wrapper li{
+      display: inline-block;
+    }
+    
+    h1 {
+    font-family: michroma;
+    font-size: 2em;
+    color: #00ccff;
+    }
+    
+    .home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+    #work, #developer-skills, #contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      flex-flow: row-wrap;
+    }
+    #work h2{
+      font-family: montserrat;
+      color: ghostwhite;
+      font-size: 2em;
+    }
+    
+    h3.portfolio-header{
+      font-size: 2em;
+      text-decoration: underline;
+      color: ghostwhite;
+    }
+    
+    .portfolio-piece {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    p.project-description{
+      font-size: 1.5em;
+      font-family: sans-serif;
+      color: ghostwhite;
+      background-color: rgba(10,5,0,.5);
+      border: solid;
+      border-radius: 12px;
+      border-color: #0cf;
+      padding: 20px;
+      width: 80%;
+      text-align: center;
+    }
+    
+    p.skills{
+      font-size: 1.5em;
+      font-family: sans-serif;
+      color: ghostwhite;
+    }
+    p.tools{
+      font-size: 1.5em;
+      font-family: sans-serif;
+      color: ghostwhite;
+    }
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .portfolio-wrapper{
+      text-align: center;
+    }
+    
+    img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px;
+    border-radius: 12px;
+    }
+    #about h2{
+      color: black;
+     }
+    
+    #about img {
+      width: 25%;
+      box-shadow: none;
+      border-radius: 50%;
+      border: inset;
+      border-color: #00ccff;
+      float: right;
+      margin-left: 15px;
+    }
+    
+    .about-content-wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      flex-direction: row-reverse;
+      padding: 25px;
+      background-color: aliceblue;
+    }
+    .about-text{
+      font-size: 1.125em;
+      font-family: sans-serif;
+    }
+    span{
+      font-size: 1.125em;
+      font-style: italic;
+    }
+    
+    .button {
+      background-color: black;
+      font-size: 1.5em;
+      font-family: sans-serif;
+      border-radius: 12px;
+      text-align: center;
+      font-variant: all-small-caps;
+    }
+    
+    
+    a{
+      text-decoration: none;
+      color: ghostwhite;
+    }
+    
+    #developer-skills{
+      background-color: black;
+    }
+    
+    #developer-skills ul {
+      list-style: none;
+      font-size: 8em;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+    }
+    
+    .language-wrapper li{
+    margin-left: 60px;
+    margin-right: 60px;
+    }
+    
+    
+    h3.skills-header{
+      font-size: 2em;
+      text-decoration: underline;
+      color: ghostwhite;
+    }
+    
+    
+    .tool-wrapper {
+      font-size: 1.5em;
+      margin-bottom: 50px;
+      color: ghostwhite;
+    }
+    
+    #contact p{
+      text-align: center;
+    }
+    
+    h3.contact-title{
+      text-align: center;
+    }
+    
+    ul.social-icons li{
+      margin-right: 40px;
+      font-size: 3em;
+    }
+    
+    #contact{
+      background-color: #000;
+    }
+    
+    #contact p{
+      color: ghostwhite;
+    
+    }
+    
+    #contact h3{
+      color: #adadad;
+    }
+    #work{
+      background-image: url(../img/iStock-1215741500.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    
+    }
 }
 
 @media print,
