@@ -285,7 +285,7 @@ a{
   padding-inline-start: 0px;
   margin-block-start: 0.25em;
   margin-block-end: 0.25em;
-  text-align: center;
+
 }
 
 .language-wrapper li{
@@ -305,6 +305,7 @@ h3.skills-header{
   font-size: 1.5em;
   margin-bottom: 20px;
   color: ghostwhite;
+  text-align: center;
 }
 
 #contact p{
