@@ -164,7 +164,15 @@ p.project-description{
   font-size: 1.5em;
   font-family: sans-serif;
   color: ghostwhite;
+  background-color: rgba(10,5,0,.5);
+  border: solid;
+  border-radius: 12px;
+  border-color: #0cf;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
 }
+
 p.skills{
   font-size: 1.5em;
   font-family: sans-serif;
@@ -212,6 +220,15 @@ border-radius: 12px;
   align-items: flex-start;
   justify-content: space-evenly;
   flex-direction: row-reverse;
+  padding: 25px;
+  background-color: aliceblue;
+}
+.about-text{
+  font-size: 1.125em;
+}
+.about-span{
+  font-size: 1.125em;
+  font-style: italic;
 }
 
 .button {
@@ -239,6 +256,11 @@ a{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+
+.language-wrapper li{
+margin-left: 60px;
+margin-right: 60px;
 }
 
 li{
