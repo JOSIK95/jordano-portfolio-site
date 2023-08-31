@@ -146,7 +146,11 @@ justify-content: center;
   justify-content: center;
   flex-flow: row-wrap;
 }
-
+#work h2{
+  font-family: montserrat;
+  color: ghostwhite;
+  font-size: 2em;
+}
 
 h3.portfolio-header{
   font-size: 2em;
