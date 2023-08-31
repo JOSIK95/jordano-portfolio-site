@@ -424,7 +424,8 @@ ul.social-icons li{
    Modify as content requires.
    ========================================================================== */
 
-@media (min-width:768px) and (max-width: 1199px) {
+@media (min-width:768px) 
+  and (max-width: 1199px) {
   /*---------------------------------Tablet Styles---------------------------------*/
 
 
@@ -691,6 +692,7 @@ ul.social-icons li{
       font-family: 'Michroma';
       font-size: 2em;
       color: #00ccff;
+      text-align: left;
     }
     
     
@@ -805,6 +807,10 @@ ul.social-icons li{
     }
     #about h2{
       color: black;
+      text-align: left;
+     }
+     #about p{
+      text-align: left;
      }
     
     #about img {
@@ -828,6 +834,7 @@ ul.social-icons li{
     .about-text{
       font-size: 1.125em;
       font-family: sans-serif;
+      text-align: left;
     }
     span{
       font-size: 1.125em;
