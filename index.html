@@ -28,14 +28,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Open+Sans&display=swap" rel="stylesheet">
-
+<script src="js/script.js" defer></script>
 </head>
-
-
-
-
-
 <body>
+    <div class="loader-wrapper">
+        <span class="loader">
+            <span class="loader-inner"></span>
 <header>
 <div class="content-wrapper">
     <nav>
@@ -219,5 +217,10 @@
         </p>
     </div>
 </footer>
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
 </body>
 </html>
