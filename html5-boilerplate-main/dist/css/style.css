@@ -335,7 +335,7 @@ ul.social-icons li{
 }
 #work{
 
-background: url("https://media4.giphy.com/media/TTWnfO964s245vzY4e/giphy.webp?cid=ecf05e47ksmswpsyo1w220dp7zrpy1qxzhzqb7b9ab0ya3af&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+background-image: url("../img/iStock-1215741500.jpg");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -669,14 +669,12 @@ background-repeat: no-repeat;
       color: #adadad;
     }
     #work{
-    background: url("../img/Macro_Plex_4K_Motion_Background_Loop.mp4");
-    
-    
+    background-image: url("../img/iStock-1215741500.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     }
     
-    }
-    
-    }
 
 }
 @media (min-width:1200px) {
@@ -913,9 +911,10 @@ background-repeat: no-repeat;
       color: #adadad;
     }
     #work{
-   background:url("../img/Macro_Plex_4K_Motion_Background_Loop.mp4");
-    
-    
+   background-color: url("../img/iStock-1215741500.jpg");
+    background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
   }
 
 }
