@@ -1,5 +1,3 @@
-const button = document.querySelector('button');
-button.addEventListener('mouseover', () => {
-    button.style.backgroundColor = 'gray';
-    button.style.fontSize = '1.5em';
-});
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  })
