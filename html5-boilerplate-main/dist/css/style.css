@@ -186,7 +186,25 @@ p.project-description{
   background-color: rgba(10,5,0,.5);
   border: solid;
   border-radius: 12px;
-  border-color: #0cf;
+  border-color: linear-gradient(
+    45deg,
+    hsl(223deg 100% 41%) 0%,
+    hsl(234deg 66% 49%) 23%,
+    hsl(242deg 61% 52%) 33%,
+    hsl(248deg 61% 51%) 40%,
+    hsl(253deg 60% 50%) 46%,
+    hsl(258deg 60% 50%) 50%,
+    hsl(262deg 61% 49%) 55%,
+    hsl(266deg 62% 48%) 58%,
+    hsl(270deg 64% 47%) 62%,
+    hsl(274deg 65% 46%) 65%,
+    hsl(277deg 67% 46%) 69%,
+    hsl(281deg 68% 45%) 72%,
+    hsl(284deg 71% 44%) 76%,
+    hsl(287deg 73% 43%) 80%,
+    hsl(290deg 76% 41%) 86%,
+    hsl(293deg 80% 40%) 100%
+  );
   padding: 20px;
   width: 80%;
   text-align: center;
@@ -257,15 +275,34 @@ span{
 }
 
 .button {
-  background-color: black;
+  background-image: linear-gradient(
+    45deg,
+    hsl(223deg 100% 41%) 0%,
+    hsl(234deg 66% 49%) 23%,
+    hsl(242deg 61% 52%) 33%,
+    hsl(248deg 61% 51%) 40%,
+    hsl(253deg 60% 50%) 46%,
+    hsl(258deg 60% 50%) 50%,
+    hsl(262deg 61% 49%) 55%,
+    hsl(266deg 62% 48%) 58%,
+    hsl(270deg 64% 47%) 62%,
+    hsl(274deg 65% 46%) 65%,
+    hsl(277deg 67% 46%) 69%,
+    hsl(281deg 68% 45%) 72%,
+    hsl(284deg 71% 44%) 76%,
+    hsl(287deg 73% 43%) 80%,
+    hsl(290deg 76% 41%) 86%,
+    hsl(293deg 80% 40%) 100%
+  );
   font-size: 1.125em;
   font-family: sans-serif;
   border-radius: 12px;
   text-align: center;
   font-variant: all-small-caps;
   margin-bottom: 30px;
+  border-color: #adadad;
 }
-.button-hover{
+.button.button-hover{
   background-color: #222;
   opacity: .5;
   transition: .5s ease;
