@@ -1,7 +1,8 @@
 const button = document.querySelector('button');
 button.addEventListener('mouseover', () => {
-    button.style.border = 'blue';
+    button.classList.add = 'button-hover';
+
 });
 button.addEventListener('mouseout', () => {
-    button.style.border = '';
+    button.classList.remove = 'button-hover';
 });
