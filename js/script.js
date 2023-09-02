@@ -1,3 +1,7 @@
-particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-  })
+const button = document.querySelector('button');
+button.addEventListener('mouseover', () => {
+    button.style.border = 'blue';
+});
+button.addEventListener('mouseout', () => {
+    button.style.border = '';
+});
