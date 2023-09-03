@@ -186,7 +186,7 @@ p.project-description{
   background-color: rgba(10,5,0,.5);
   border: solid;
   border-radius: 12px;
-  border-color: #00ccff
+  border-color: #00ccff;
   padding: 20px;
   width: 80%;
   text-align: center;
@@ -258,41 +258,53 @@ span{
 
 .button {
   background-image: linear-gradient(
-    45deg,
-    hsl(223deg 100% 41%) 0%,
-    hsl(234deg 66% 49%) 23%,
-    hsl(242deg 61% 52%) 33%,
-    hsl(248deg 61% 51%) 40%,
-    hsl(253deg 60% 50%) 46%,
-    hsl(258deg 60% 50%) 50%,
-    hsl(262deg 61% 49%) 55%,
-    hsl(266deg 62% 48%) 58%,
-    hsl(270deg 64% 47%) 62%,
-    hsl(274deg 65% 46%) 65%,
-    hsl(277deg 67% 46%) 69%,
-    hsl(281deg 68% 45%) 72%,
-    hsl(284deg 71% 44%) 76%,
-    hsl(287deg 73% 43%) 80%,
-    hsl(290deg 76% 41%) 86%,
-    hsl(293deg 80% 40%) 100%
-  );
+  45deg,
+  hsl(240deg 100% 25%) 0%,
+  hsl(227deg 100% 29%) 23%,
+  hsl(221deg 100% 32%) 35%,
+  hsl(217deg 100% 34%) 42%,
+  hsl(213deg 100% 36%) 48%,
+  hsl(209deg 100% 38%) 53%,
+  hsl(205deg 100% 40%) 58%,
+  hsl(202deg 100% 41%) 63%,
+  hsl(198deg 100% 42%) 70%,
+  hsl(195deg 100% 43%) 79%,
+  hsl(192deg 100% 44%) 100%
+);
+  
   font-size: 1.125em;
   font-family: sans-serif;
-  border-radius: 12px;
+  border-radius: 4px;
   text-align: center;
   font-variant: all-small-caps;
   margin-bottom: 30px;
-  border-color: #adadad;
+  border-color: ghostwhite;
 }
-.button.button-hover{
-  background-color: #222;
+.button:hover{
+  background-image: linear-gradient(
+  230deg,
+  hsl(240deg 100% 25%) 0%,
+  hsl(227deg 100% 29%) 23%,
+  hsl(221deg 100% 32%) 35%,
+  hsl(217deg 100% 34%) 42%,
+  hsl(213deg 100% 36%) 48%,
+  hsl(209deg 100% 38%) 53%,
+  hsl(205deg 100% 40%) 58%,
+  hsl(202deg 100% 41%) 63%,
+  hsl(198deg 100% 42%) 70%,
+  hsl(195deg 100% 43%) 79%,
+  hsl(192deg 100% 44%) 100%
+);
   opacity: .5;
   transition: .5s ease;
-  border-color: #00ccff;
-  border-radius: 12px;
+  border-color: ghostwhite;
+  border-radius: 4%;
   border-style: solid;
 }
-
+.button:active{
+  background-image: black;
+  
+}
 
 a{
   text-decoration: none;
