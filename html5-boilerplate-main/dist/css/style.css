@@ -92,6 +92,7 @@ html{
 
 a:hover{
   color: #00ccff;
+  transition: 0.5s;
 }
 
 
@@ -149,10 +150,7 @@ margin-bottom: 50px;
 h1:hover{
   color: rgb(100, 250, 227);
   font-size: 2.125em;
-  transition: 1s ease; 
-}
-h1:hover::after{
-  transition: ease-out 1s;
+  transition: 0.5s ease; 
 }
 .home-title {
 display: flex;
@@ -182,6 +180,12 @@ h3.portfolio-header{
   color: ghostwhite;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+h3.portfolio-header:hover{
+  
+  font-size: 2.125em;
+  transition: 0.5s ease; 
 }
 
 .portfolio-piece {
