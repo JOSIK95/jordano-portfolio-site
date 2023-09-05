@@ -282,23 +282,23 @@ span{
 }
 .button:hover{
   background-image: linear-gradient(
-  230deg,
-  hsl(240deg 100% 25%) 0%,
-  hsl(227deg 100% 29%) 23%,
-  hsl(221deg 100% 32%) 35%,
-  hsl(217deg 100% 34%) 42%,
-  hsl(213deg 100% 36%) 48%,
-  hsl(209deg 100% 38%) 53%,
-  hsl(205deg 100% 40%) 58%,
-  hsl(202deg 100% 41%) 63%,
-  hsl(198deg 100% 42%) 70%,
-  hsl(195deg 100% 43%) 79%,
-  hsl(192deg 100% 44%) 100%
+  45deg,
+  hsl(0deg 0% 9%) 0%,
+  hsl(344deg 0% 14%) 21%,
+  hsl(344deg 0% 19%) 30%,
+  hsl(344deg 0% 24%) 39%,
+  hsl(344deg 0% 29%) 46%,
+  hsl(344deg 0% 35%) 54%,
+  hsl(344deg 0% 41%) 61%,
+  hsl(344deg 0% 47%) 69%,
+  hsl(344deg 0% 53%) 79%,
+  hsl(0deg 0% 59%) 100%
 );
+
   opacity: .5;
   transition: .5s ease;
   border-color: ghostwhite;
-  border-radius: 4%;
+  border-radius: 4px;
   border-style: solid;
 }
 .button:active{
