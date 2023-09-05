@@ -152,7 +152,7 @@ h1:hover{
   transition: 1s ease; 
 }
 h1:hover::after{
-  transition: transform ease-out 1s;
+  transition: ease-out 1s;
 }
 .home-title {
 display: flex;
