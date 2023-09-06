@@ -15,8 +15,9 @@ if (time < 12) {
 
 alert(`${greeting}, ${welcome}!`);
 
-// hover effects
-var git = document.querySelector(".fa-brands .fa-git");
-git.addEventListener("mouseover", function(){
-git.style.color ="#d45bb9";
+var changeHover = document.querySelector(".hover i");
+var icon = document.querySelector(".fa-brands");
+
+changeHover.addEventListener("mouseover", function(){
+    icon.classList.add(".hover i")
 });
