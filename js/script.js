@@ -1,18 +1,18 @@
 // get current date/time
-let time = new Date().getHours();
+var time = new Date().getHours();
 
 var greeting = "Hello!";
-var welcome ="Welcome to my website!";
-if (time < 12) {
+var welcome ="Welcome to my website";
+if (time <= 12) {
   greeting = "Good morning";
-} else if (time < 13) {
+} else if (time <= 13) {
   greeting = "Good afternoon";
-} else if (time < 22) {
+} else if (time <= 22) {
   greeting = "Good evening";
 } else {
     greeting = "Why are you still up? Either way";
 };
 
-alert('${greeting}, ${welcome}');
+alert('${greeting}, ${welcome}!');
 
 
