@@ -3,7 +3,7 @@ var time = new Date().getHours();
 
 var greeting = "Hello!";
 var welcome ="Welcome to my website";
-if (time <= 12) {
+if (time < 12) {
   greeting = "Good morning";
 } else if (time <= 13) {
   greeting = "Good afternoon";
@@ -13,6 +13,6 @@ if (time <= 12) {
     greeting = "Why are you still up? Either way";
 };
 
-alert('${greeting}, ${welcome}!');
+alert(`${greeting}, ${welcome}!`);
 
 
