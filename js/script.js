@@ -13,6 +13,6 @@ if (time < 12) {
     greeting = "Why are you still up? Either way";
 };
 
-alert('${greeting}', '${welcome}');
+alert('${greeting}, ${welcome}');
 
 
