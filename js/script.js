@@ -2,6 +2,7 @@
 const time = new Date().getHours();
 
 const greeting = "Hello!";
+const welcome ="Welcome to my website!";
 if (time < 12) {
   greeting = "Good morning";
 } else if (time < 18) {
@@ -12,4 +13,4 @@ if (time < 12) {
     greeting = "Why are you still up? Either way";
 };
 
-alert('${greeting}, "Welcome to my website!"');
+alert('${greeting}, ${welcome}');
