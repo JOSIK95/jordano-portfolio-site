@@ -15,9 +15,7 @@ if (time < 12) {
 
 alert(`${greeting}, ${welcome}!`);
 
-var changeHover = document.querySelector(".hover i");
-var icon = document.querySelector(".fa-brands");
-
-changeHover.addEventListener("mouseover", function(){
-    icon.classList.add(".hover i")
+var portfolioHeader = document.querySelector("portfolio-header");
+portfolioHeader.addEventListener("mouseover", function(){
+    portfolioHeader.classList.add("hover i");
 });
