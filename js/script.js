@@ -17,5 +17,9 @@ alert(`${greeting}, ${welcome}!`);
 
 var portfolioHeader = document.querySelector(".portfolio-header");
 portfolioHeader.addEventListener("mouseover", function() {
-    portfolioHeader.style.color = "red";
+    portfolioHeader.classList.add(".hover-portfolio-header");
+});
+ var portfolioHeader = document.querySelector(".portfolio-header");
+portfolioHeader.addEventListener("mouseout", function() {
+    portfolioHeader.classList.remove(".hover-portfolio-header");
 });
