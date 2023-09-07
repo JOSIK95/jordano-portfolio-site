@@ -15,7 +15,7 @@ if (time < 12) {
 
 alert(`${greeting}, ${welcome}!`);
 
-var portfolioHeader = document.querySelector("portfolio-header");
-portfolioHeader.addEventListener("mouseover", function(){
-    portfolioHeader.classList.add("hover i");
+var portfolioHeader = document.querySelector(".portfolio-header");
+portfolioHeader.addEventListener("mouseover", function() {
+    portfolioHeader.style.color = "red";
 });
