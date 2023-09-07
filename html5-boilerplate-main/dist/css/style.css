@@ -90,7 +90,7 @@ html{
   font-family: sans-serif;
 }
 
-a:hover{
+{
   color: #00ccff;
   transition: 0.5s;
 }
@@ -349,6 +349,7 @@ a{
 .language-wrapper li{
 margin-left: 9px;
 margin-right: 9px;
+margin-top: 3px;
 }
 
 
@@ -398,11 +399,18 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
-.hover i{
-  color:blueviolet;
-  transition: 0.3s ease;
-
-
+.hover-portfolio-header{
+  font-size: 2.125em;
+  transition: 0.3s ease-in; 
+}
+.hover-portfolio-header-out{
+  font-size: 2em;
+  transition: 0.3s ease-out; 
+}
+.hover-fa-brands{
+  transition: 0.3s ease-in; 
+  color: gray;
+  margin-top: -3px;
 }
 
 /* ==========================================================================
