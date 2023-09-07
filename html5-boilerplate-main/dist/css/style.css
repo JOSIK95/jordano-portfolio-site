@@ -310,8 +310,8 @@ span{
     hsl(0deg 0% 59%) 100%
   );
 
-  opacity: .5;
-  transition: .5s ease;
+  opacity: .3;
+  transition: .3s ease;
   border-color: ghostwhite;
   border-radius: 4px;
   border-style: solid;
