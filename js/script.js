@@ -27,6 +27,14 @@ headlineHover.addEventListener("mouseout", function() {
 });
 
 
+var projectTitleHover = document.querySelector(".project-title");
+projectTitleHover.addEventListener("mouseover", function() {
+    projectTitleHover.classList.add("project-title-hover");
+});
+var projectTitleHover = document.querySelector(".project-title");
+projectTitleHover.addEventListener("mouseout", function() {
+    projectTitleHover.classList.remove("project-title-hover");
+});
 
 
 
