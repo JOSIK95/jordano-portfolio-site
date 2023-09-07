@@ -21,5 +21,5 @@ portfolioHeader.addEventListener("mouseover", function() {
 });
  var portfolioHeader = document.querySelector(".portfolio-header");
 portfolioHeader.addEventListener("mouseout", function() {
-    portfolioHeader.classList.remove(".hover-portfolio-header");
+    portfolioHeader.classList.add(".hover-portfolio-header-out");
 });
