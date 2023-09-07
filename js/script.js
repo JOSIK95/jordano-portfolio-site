@@ -15,6 +15,19 @@ if (time < 12) {
 
 alert(`${greeting}, ${welcome}!`);
 
+// hover effects
+
+var faBrands = document.querySelector(".fa-brands");
+faBrands.addEventListener("mouseover", function() {
+    faBrands.classList.add(".hover-fa-brands");
+});
+
+
+
+
+
+
+
 var portfolioHeader = document.querySelector(".portfolio-header");
 portfolioHeader.addEventListener("mouseover", function() {
     portfolioHeader.classList.add(".hover-portfolio-header");
