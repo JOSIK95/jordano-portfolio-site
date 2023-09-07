@@ -147,11 +147,7 @@ text-align:center;
 margin-top: 50px;
 margin-bottom: 50px;
 }
-h1:hover{
-  color: rgb(100, 250, 227);
-  font-size: 2.125em;
-  transition: 0.5s ease; 
-}
+
 .home-title {
 display: flex;
 flex-direction: column;
@@ -407,10 +403,11 @@ background-repeat: no-repeat;
   font-size: 2em;
   transition: 0.3s ease-out; 
 }
-.hover-fa-brands{
-  transition: 0.3s ease-in; 
-  color: gray;
-  margin-top: -3px;
+
+.hello-hover{
+  color: rgb(100, 250, 227);
+  font-size: 2.125em;
+  transition: 0.3s ease-out; 
 }
 
 /* ==========================================================================

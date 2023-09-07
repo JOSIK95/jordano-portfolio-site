@@ -17,9 +17,13 @@ alert(`${greeting}, ${welcome}!`);
 
 // hover effects
 
-var faBrands = document.querySelector(".fa-brands");
-faBrands.addEventListener("mouseover", function() {
-    faBrands.classList.add(".hover-fa-brands");
+var headlineHover = document.querySelector(".hello");
+headlineHover.addEventListener("mouseover", function() {
+    headlineHover.classList.add("hello-hover");
+});
+var headlineHover = document.querySelector(".hello");  
+headlineHover.addEventListener("mouseout", function() {
+    headlineHover.classList.remove("hello-hover");
 });
 
 
