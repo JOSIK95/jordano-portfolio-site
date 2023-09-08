@@ -24,7 +24,7 @@ headlineHover.addEventListener("mouseover", function() {
 });
 var headlineHover = document.querySelector(".hello");  
 headlineHover.addEventListener("mouseout", function() {
-    headlineHover.classList.remove("hello-hover");
+    headlineHover.classList.add("transition-out");
 });
 
 

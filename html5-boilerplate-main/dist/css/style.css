@@ -90,9 +90,15 @@ html{
   font-family: sans-serif;
 }
 
-{
+a:hover{
   color: #00ccff;
-  transition: 0.5s;
+  border-bottom: solid;
+  border-color: ghostwhite;
+  border: 2px;
+}
+.transition-out{
+  transition: 0.3s ease;
+  color: original;
 }
 .greeting-time{
   color: #00ccff;
