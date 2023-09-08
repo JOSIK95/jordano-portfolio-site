@@ -92,13 +92,10 @@ html{
 
 a:hover{
   color: #00ccff;
-  border-bottom: solid;
-  border-color: ghostwhite;
-  border: 2px;
 }
-.transition-out{
-  transition: 0.3s ease;
-  color: original;
+.a-transition-out{
+  transition: 0.5s ease;
+  color: ;
 }
 .greeting-time{
   color: #00ccff;
@@ -420,7 +417,12 @@ background-repeat: no-repeat;
 .hello-hover{
   color: rgb(100, 250, 227);
   font-size: 2.125em;
-  transition: 0.3s ease-out; 
+  transition: 0.3s ease; 
+}
+.hello-hover-out{
+  color: #00ccff;
+  font-size: 2em;
+  transition: 0.3s ease; 
 }
 
 /* ==========================================================================
