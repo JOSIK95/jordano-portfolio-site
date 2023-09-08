@@ -94,6 +94,12 @@ html{
   color: #00ccff;
   transition: 0.5s;
 }
+.greeting-time{
+  color: #00ccff;
+  font-family: michroma;
+  font-size: 2em;
+  text-align: center;
+}
 
 
 h3 {
