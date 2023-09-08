@@ -1,5 +1,5 @@
 // get current date/time
-let greetingTime = document.querySelector(".greeting-time");
+var greetingTime = document.querySelector(".greeting-time");
 
 var time = new Date().getHours();
 
@@ -14,7 +14,7 @@ if (time < 12) {
     greeting = "Good night";
 };
 
-greetingTime.innerHTML = '<div>${greeting}</div>';
+greetingTime.innerHTML = `<div>${greeting}</div>`;
 
 // hover effects
 
