@@ -51,7 +51,7 @@ projectTitleHover.addEventListener("mouseout", function() {
     projectTitleHover.classList.remove("h2-hover");
 });
 
-//button hover
+//button 1 hover
 
 var button = document.querySelector(".button-container");
 button.addEventListener("mouseover", function(e) {
@@ -65,8 +65,28 @@ button.addEventListener("mouseout", function(e) {
     }
 });
 
+// button 2 hover
 
+ var button2 = document.querySelector(".button-container");
+button2.addEventListener("mouseover", function(e) {
+    if (e.target.classList.contains("button2")) {
+        e.target.classList.add("button-hover");
+    }   
+});
+button2.addEventListener("mouseout", function(e) {
+    if (e.target.classList.contains("button2")) {
+        e.target.classList.remove("button-hover");
+    }
+});
 
+// button 3 hover 
+
+var button3 = document.querySelector(".button-container");
+button3.addEventListener("mouseover", function(e) {
+    if (e.target.classList.contains("button3")) {
+        e.target.classList.add("button-hover");
+    }
+});
 
 // portfolio header
 
