@@ -40,39 +40,18 @@ timeOfDayHover.addEventListener("mouseout", function() {
     timeOfDayHover.classList.remove("greeting-time-hover");
 });
 
-// h2 project title
+// surprise! :)
 
-var projectTitleHover = document.querySelector("#work h2");
-projectTitleHover.addEventListener("mouseover", function() {
-    projectTitleHover.classList.add("h2-hover");
-});
-var projectTitleHover = document.querySelector("#work h2");
-projectTitleHover.addEventListener("mouseout", function() {
-    projectTitleHover.classList.remove("h2-hover");
-});
+const aboutHeading = document.querySelector(".hover-me");
+const smileyFace = document.createElement("span");
+smileyFace.innerHTML = " :)";
+smileyFace.style.opacity = "0";
+smileyFace.style.transition = "opacity 0.3s ease-in-out";
 
+aboutHeading.appendChild(smileyFace);
 
-// portfolio header
-
-var portfolioHeaderEnter = document.querySelector(".portfolio-header");
-portfolioHeaderEnter.addEventListener("mouseover", function() {
-    portfolioHeaderEnter.classList.add("hover-portfolio-header");
-});
- var portfolioHeaderLeave = document.querySelector(".portfolio-header");
-portfolioHeaderLeave.addEventListener("mouseout", function() {
-    portfolioHeaderLeave.classList.remove("hover-portfolio-header");
+aboutHeading.addEventListener("mouseover", function() {
+    smileyFace.style.opacity = "1";
 });
 
 
-
-
-// social icons
-
-var socialIconsEnter = document.querySelector(".social-icons");
-socialIconsEnter.addEventListener("mouseover", function() {
-    socialIconsEnter.classList.add("social-icons-hover");
-});
-var socialIconsLeave = document.querySelector(".social-icons");
-socialIconsLeave.addEventListener("mouseout", function() {
-    socialIconsLeave.classList.remove("social-icons-hover");
-});

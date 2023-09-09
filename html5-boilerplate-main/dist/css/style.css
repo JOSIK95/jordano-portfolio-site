@@ -92,6 +92,7 @@ html{
 
 a:hover{
   color: #00ccff;
+  transform: 0.3s ease;
 }
 .greeting-time{
   color: #00ccff;
