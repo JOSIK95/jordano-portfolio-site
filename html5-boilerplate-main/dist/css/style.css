@@ -90,12 +90,8 @@ html{
   font-family: sans-serif;
 }
 
-a:hover{
+.a-hover{
   color: #00ccff;
-}
-.a-transition-out{
-  transition: 0.5s ease;
-  color: ;
 }
 .greeting-time{
   color: #00ccff;
@@ -304,6 +300,7 @@ span{
   margin-bottom: 30px;
   border-color: ghostwhite;
   padding: 3px;
+  transition: .3s ease;
 }
 .button-hover{
   background-image: linear-gradient(
@@ -419,6 +416,10 @@ background-repeat: no-repeat;
 .h2-hover{
   color: gold;
 
+}
+.social-icons-hover{
+  color:#00ccff;
+ margin-bottom: 18px;
 }
 
 /* ==========================================================================

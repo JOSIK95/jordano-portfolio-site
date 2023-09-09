@@ -1,4 +1,4 @@
-// get current date/time
+// get current date/time----------------------------------------------
 var greetingTime = document.querySelector(".greeting-time");
 
 var time = new Date().getHours();
@@ -16,9 +16,10 @@ if (time < 12) {
 
 greetingTime.innerHTML = `<div>${greeting}</div>`;
 
-// hover effects
+// hover effects----------------------------------------------
 
 // h1
+
 var headlineHover = document.querySelector(".hello");
 headlineHover.addEventListener("mouseover", function() {
     headlineHover.classList.add("hello-hover");
@@ -29,6 +30,7 @@ headlineHover.addEventListener("mouseout", function() {
 });
 
 // time of day greeting hover
+
 var timeOfDayHover = document.querySelector(".greeting-time");
 timeOfDayHover.addEventListener("mouseover", function() {
     timeOfDayHover.classList.add("greeting-time-hover");
@@ -39,6 +41,7 @@ timeOfDayHover.addEventListener("mouseout", function() {
 });
 
 // h2 project title
+
 var projectTitleHover = document.querySelector("#work h2");
 projectTitleHover.addEventListener("mouseover", function() {
     projectTitleHover.classList.add("h2-hover");
@@ -49,6 +52,7 @@ projectTitleHover.addEventListener("mouseout", function() {
 });
 
 //button hover
+
 var button = document.querySelector(".button-container");
 button.addEventListener("mouseover", function(e) {
     if (e.target.classList.contains("button")) {
@@ -65,11 +69,34 @@ button.addEventListener("mouseout", function(e) {
 
 
 // portfolio header
-var portfolioHeader = document.querySelector(".portfolio-header");
-portfolioHeader.addEventListener("mouseover", function() {
-    portfolioHeader.classList.add("hover-portfolio-header");
+
+var portfolioHeaderEnter = document.querySelector(".portfolio-header");
+portfolioHeaderEnter.addEventListener("mouseover", function() {
+    portfolioHeaderEnter.classList.add("hover-portfolio-header");
 });
- var portfolioHeader = document.querySelector(".portfolio-header");
-portfolioHeader.addEventListener("mouseout", function() {
-    portfolioHeader.classList.remove("hover-portfolio-header");
+ var portfolioHeaderLeave = document.querySelector(".portfolio-header");
+portfolioHeaderLeave.addEventListener("mouseout", function() {
+    portfolioHeaderLeave.classList.remove("hover-portfolio-header");
+});
+
+// link hover
+
+var linkHoverEnter = document.querySelector("a");
+linkHoverEnter.addEventListener("mouseover", function() {
+    linkHoverEnter.classList.add("a-hover");
+});
+var linkHoverLeave = document.querySelector("a");
+linkHoverLeave.addEventListener("mouseout", function() {
+    linkHoverLeave.classList.remove("a-hover");
+});
+
+// social icons
+
+var socialIconsEnter = document.querySelector(".social-icons");
+socialIconsEnter.addEventListener("mouseover", function() {
+    socialIconsEnter.classList.add("social-icons-hover");
+});
+var socialIconsLeave = document.querySelector(".social-icons");
+socialIconsLeave.addEventListener("mouseout", function() {
+    socialIconsLeave.classList.remove("social-icons-hover");
 });
