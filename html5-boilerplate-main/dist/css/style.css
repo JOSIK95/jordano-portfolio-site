@@ -327,10 +327,7 @@ span{
   border-style: solid;
   padding: 3px;
 }
-.button:active{
-  background-color: black;
-  
-}
+
 
 a{
   text-decoration: none;
@@ -421,7 +418,7 @@ background-repeat: no-repeat;
 }
 .h2-hover{
   color: gold;
-  margin-top: -5px;
+
 }
 
 /* ==========================================================================
