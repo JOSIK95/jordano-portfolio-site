@@ -28,6 +28,15 @@ headlineHover.addEventListener("mouseout", function() {
     headlineHover.classList.remove("hello-hover");
 });
 
+// time of day hover
+var timeOfDayHover = document.querySelector(".greeting-time");
+timeOfDayHover.addEventListener("mouseover", function() {
+    timeOfDayHover.classList.add("greeting-time-hover");
+});
+var timeOfDayHover = document.querySelector(".greeting-time");
+timeOfDayHover.addEventListener("mouseout", function() {
+    timeOfDayHover.classList.remove("greeting-time-hover");
+});
 
 // h2 project title
 var projectTitleHover = document.querySelector("#work h2");

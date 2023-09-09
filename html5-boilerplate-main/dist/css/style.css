@@ -103,6 +103,7 @@ a:hover{
   font-size: 2em;
   text-align: center;
   margin-top: 50px;
+  transition: ease 0.3s;
 }
 
 
@@ -407,6 +408,11 @@ background-repeat: no-repeat;
 
 
 .hello-hover{
+  color: rgb(100, 250, 227);
+  font-size: 2.125em;
+  transition: 0.3s ease; 
+}
+.greeting-time-hover{
   color: rgb(100, 250, 227);
   font-size: 2.125em;
   transition: 0.3s ease; 
