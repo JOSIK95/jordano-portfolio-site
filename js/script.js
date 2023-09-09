@@ -41,20 +41,20 @@ timeOfDayHover.addEventListener("mouseout", function() {
 // h2 project title
 var projectTitleHover = document.querySelector("#work h2");
 projectTitleHover.addEventListener("mouseover", function() {
-    projectTitleHover.classList.add("work-h2-hover");
+    projectTitleHover.classList.add("h2-hover");
 });
 var projectTitleHover = document.querySelector("#work h2");
 projectTitleHover.addEventListener("mouseout", function() {
-    projectTitleHover.classList.remove("work-h2-hover");
+    projectTitleHover.classList.remove("h2-hover");
 });
 
 //button hover
-var buttonHover = document.querySelector(".button");
-buttonHover.addEventListener("mouseover", function() {
+var buttonHoverEnter = document.querySelector(".button");
+buttonHoverEnter.addEventListener("mouseover", function() {
     buttonHover.classList.add("button-hover");
 }); 
-var buttonHover = document.querySelector(".button");
-buttonHover.addEventListener("mouseout", function() {
+var buttonHoverLeave = document.querySelector(".button");
+buttonHoverLeave.addEventListener("mouseout", function() {
     buttonHover.classList.remove("button-hover");
 });
 
