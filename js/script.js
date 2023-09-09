@@ -53,40 +53,17 @@ projectTitleHover.addEventListener("mouseout", function() {
 
 //button 1 hover
 
-var button = document.querySelector(".button-container");
-button.addEventListener("mouseover", function(e) {
-    if (e.target.classList.contains("button")) {
+var buttons = document.querySelector(".button");
+buttons.forEach(function(button) {
+    button.addEventListener("mouseover", function(e) {
         e.target.classList.add("button-hover");
-    }
-});
-button.addEventListener("mouseout", function(e) {
-    if (e.target.classList.contains("button")) {
+    });
+
+    button.addEventListener("mouseout", function(e) {
         e.target.classList.remove("button-hover");
-    }
+    });
 });
 
-// button 2 hover
-
- var button2 = document.querySelector(".button-container");
-button2.addEventListener("mouseover", function(e) {
-    if (e.target.classList.contains("button2")) {
-        e.target.classList.add("button-hover");
-    }   
-});
-button2.addEventListener("mouseout", function(e) {
-    if (e.target.classList.contains("button2")) {
-        e.target.classList.remove("button-hover");
-    }
-});
-
-// button 3 hover 
-
-var button3 = document.querySelector(".button-container");
-button3.addEventListener("mouseover", function(e) {
-    if (e.target.classList.contains("button3")) {
-        e.target.classList.add("button-hover");
-    }
-});
 
 // portfolio header
 
@@ -99,16 +76,8 @@ portfolioHeaderLeave.addEventListener("mouseout", function() {
     portfolioHeaderLeave.classList.remove("hover-portfolio-header");
 });
 
-// link hover
 
-var linkHoverEnter = document.querySelector("a");
-linkHoverEnter.addEventListener("mouseover", function() {
-    linkHoverEnter.classList.add("a-hover");
-});
-var linkHoverLeave = document.querySelector("a");
-linkHoverLeave.addEventListener("mouseout", function() {
-    linkHoverLeave.classList.remove("a-hover");
-});
+
 
 // social icons
 
