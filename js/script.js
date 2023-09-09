@@ -49,7 +49,7 @@ projectTitleHover.addEventListener("mouseout", function() {
 });
 
 //button hover
-var button = document.querySelector(".button");
+var button = document.querySelector(".button-container");
 button.addEventListener("mouseover", function(e) {
     if (e.target.classList.contains("button")) {
         e.target.classList.add("button-hover");
