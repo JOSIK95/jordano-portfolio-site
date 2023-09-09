@@ -175,7 +175,7 @@ justify-content: center;
 }
 #work h2{
   font-family: montserrat;
-  color: gold;
+  color: ghostwhite;
   font-size: 2em;
   transition: ease 0.3s;
 }
@@ -816,7 +816,7 @@ img:hover{
     }
     
     
-    #work, #developer-skills, #contact {
+    #developer-skills, #contact {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -851,7 +851,7 @@ img:hover{
       border-radius: 12px;
       border-color: #0cf;
       padding: 20px;
-      width: 80%;
+      width: 70%;
       text-align: center;
     }
     
@@ -873,6 +873,9 @@ img:hover{
     
     }
     .portfolio-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
       text-align: center;
     }
     
