@@ -51,11 +51,11 @@ projectTitleHover.addEventListener("mouseout", function() {
 //button hover
 var buttonHoverEnter = document.querySelector(".button");
 buttonHoverEnter.addEventListener("mouseover", function() {
-    buttonHover.classList.add("button-hover");
+    buttonHoverEnter.classList.add("button-hover");
 }); 
 var buttonHoverLeave = document.querySelector(".button");
 buttonHoverLeave.addEventListener("mouseout", function() {
-    buttonHover.classList.remove("button-hover");
+    buttonHoverLeave.classList.remove("button-hover");
 });
 
 // portfolio header
