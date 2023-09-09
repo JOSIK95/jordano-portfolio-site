@@ -28,7 +28,7 @@ headlineHover.addEventListener("mouseout", function() {
     headlineHover.classList.remove("hello-hover");
 });
 
-// time of day hover
+// time of day greeting hover
 var timeOfDayHover = document.querySelector(".greeting-time");
 timeOfDayHover.addEventListener("mouseover", function() {
     timeOfDayHover.classList.add("greeting-time-hover");
@@ -49,14 +49,20 @@ projectTitleHover.addEventListener("mouseout", function() {
 });
 
 //button hover
-var buttonHoverEnter = document.querySelector(".button");
-buttonHoverEnter.addEventListener("mouseover", function() {
-    buttonHoverEnter.classList.add("button-hover");
-}); 
-var buttonHoverLeave = document.querySelector(".button");
-buttonHoverLeave.addEventListener("mouseout", function() {
-    buttonHoverLeave.classList.remove("button-hover");
+var button = document.querySelector(".button");
+button.addEventListener("mouseover", function(e) {
+    if (e.target.classList.contains("button")) {
+        e.target.classList.add("button-hover");
+    }
 });
+button.addEventListener("mouseout", function(e) {
+    if (e.target.classList.contains("button")) {
+        e.target.classList.remove("button-hover");
+    }
+});
+
+
+
 
 // portfolio header
 var portfolioHeader = document.querySelector(".portfolio-header");
