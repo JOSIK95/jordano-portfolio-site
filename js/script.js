@@ -51,9 +51,9 @@ projectTitleHover.addEventListener("mouseout", function() {
     projectTitleHover.classList.remove("h2-hover");
 });
 
-//button 1 hover
+//button hover
 
-var buttons = document.querySelector(".button");
+var buttons = document.querySelectorAll(".button");
 buttons.forEach(function(button) {
     button.addEventListener("mouseover", function(e) {
         e.target.classList.add("button-hover");
