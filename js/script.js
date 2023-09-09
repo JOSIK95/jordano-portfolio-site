@@ -41,19 +41,29 @@ timeOfDayHover.addEventListener("mouseout", function() {
 // h2 project title
 var projectTitleHover = document.querySelector("#work h2");
 projectTitleHover.addEventListener("mouseover", function() {
-    projectTitleHover.classList.add("#work-h2-hover");
+    projectTitleHover.classList.add("work-h2-hover");
 });
 var projectTitleHover = document.querySelector("#work h2");
 projectTitleHover.addEventListener("mouseout", function() {
-    projectTitleHover.classList.remove("#work-h2-hover");
+    projectTitleHover.classList.remove("work-h2-hover");
+});
+
+//button hover
+var buttonHover = document.querySelector(".button");
+buttonHover.addEventListener("mouseover", function() {
+    buttonHover.classList.add("button-hover");
+}); 
+var buttonHover = document.querySelector(".button");
+buttonHover.addEventListener("mouseout", function() {
+    buttonHover.classList.remove("button-hover");
 });
 
 // portfolio header
 var portfolioHeader = document.querySelector(".portfolio-header");
 portfolioHeader.addEventListener("mouseover", function() {
-    portfolioHeader.classList.add("h3.hover-portfolio-header");
+    portfolioHeader.classList.add("hover-portfolio-header");
 });
  var portfolioHeader = document.querySelector(".portfolio-header");
 portfolioHeader.addEventListener("mouseout", function() {
-    portfolioHeader.classList.remove("h3.hover-portfolio-header");
+    portfolioHeader.classList.remove("hover-portfolio-header");
 });
