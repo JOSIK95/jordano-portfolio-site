@@ -156,6 +156,7 @@ color: #00ccff;
 text-align:center;
 margin-top: 20px;
 margin-bottom: 50px;
+transition: ease 0.3s;
 }
 
 .home-title {
@@ -178,6 +179,7 @@ justify-content: center;
   font-family: montserrat;
   color: gold;
   font-size: 2em;
+  transition: ease 0.3s;
 }
 
 
@@ -187,17 +189,13 @@ h3.portfolio-header{
   color: ghostwhite;
   margin-top: 60px;
   margin-bottom: 60px;
+  transition: ease 0.3s;
 }
 
-h3.portfolio-header:hover{
+h3.portfolio-header-hover{
   font-size: 2.125em;
-  transition: 0.5s ease; 
 }
 
-h3.skills-header:hover{ 
-  font-size: 2.125em;
-  transition: 0.5s ease; 
-}
 
 .portfolio-piece {
   display: flex;
@@ -405,24 +403,18 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
-.hover-portfolio-header{
-  font-size: 2.125em;
-  transition: 0.3s ease-in; 
-}
-.hover-portfolio-header-out{
-  font-size: 2em;
-  transition: 0.3s ease-out; 
-}
+  
+
 
 .hello-hover{
   color: rgb(100, 250, 227);
   font-size: 2.125em;
   transition: 0.3s ease; 
 }
-.hello-hover-out{
-  color: #00ccff;
-  font-size: 2em;
-  transition: 0.3s ease; 
+#work-h2-hover{
+  color: gold;
+  transition: 0.3s ease;
+  margin-top: -5px;
 }
 
 /* ==========================================================================
