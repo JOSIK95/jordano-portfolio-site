@@ -47,11 +47,15 @@ const smileyFace = document.createElement("span");
 smileyFace.innerHTML = " :)";
 smileyFace.style.opacity = "0";
 smileyFace.style.transition = "opacity 0.3s ease-in-out";
+smileyFace.style.color = "slategray";
 
 aboutHeading.appendChild(smileyFace);
 
 aboutHeading.addEventListener("mouseover", function() {
     smileyFace.style.opacity = "1";
+});
+aboutHeading.addEventListener("mouseout", function() {
+    smileyFace.style.opacity = "0";
 });
 
 
