@@ -60,11 +60,10 @@ aboutHeading.addEventListener("mouseout", function() {
 
 // skills icons hover
 
-const skillsIcons = document.querySelectorAll(".language-wrapper li");
+const skillsIcons = document.querySelectorAll(".icon-container");
 skillsIcons.forEach(function(icon) {
-    const iconContainer = icon.querySelector(".icon-container");
     const iconText = icon.querySelector(".icon-text");
-    iconContainer.addEventListener("mouseover", function() {
+    skillsIcons.addEventListener("mouseover", function() {
         iconText.style.opacity = "1";
     });
 });
