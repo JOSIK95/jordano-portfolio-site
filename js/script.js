@@ -58,12 +58,5 @@ aboutHeading.addEventListener("mouseout", function() {
     smileyFace.style.opacity = "0";
 });
 
-// skills icons hover
 
-const skillsIcons = document.querySelectorAll(".icon-container");
-skillsIcons.forEach(function(icon) {
-    const iconText = icon.querySelector(".icon-text");
-    skillsIcons.addEventListener("mouseover", function() {
-        iconText.style.opacity = "1";
-    });
-});
+
