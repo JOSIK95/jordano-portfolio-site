@@ -58,4 +58,13 @@ aboutHeading.addEventListener("mouseout", function() {
     smileyFace.style.opacity = "0";
 });
 
+// skills icons hover
 
+const skillsIcons = document.querySelectorAll(".language-wrapper");
+skillsIcons.forEach(function(icon) {
+    const iconContainer = icon.querySelector(".icon-container");
+    const iconText = icon.querySelector(".icon-text");
+    iconContainer.addEventListener("mouseover", function() {
+        iconText.style.opacity = "1";
+    });
+});
