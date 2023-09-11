@@ -422,8 +422,7 @@ img:hover{
   box-shadow: none;
 }
 .icon-text{
-  position: absolute;
-  font-size: 1.5em;
+  font-size: .125em;
   font-family: michroma;
   color: ghostwhite;
   text-align: center;
@@ -431,6 +430,7 @@ img:hover{
   margin-bottom: 10px;
   transition: .3s ease;
   opacity: 0;
+  display: block;
 }
 
 /* ==========================================================================
