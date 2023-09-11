@@ -429,7 +429,7 @@ img:hover{
   margin-top: 10px;
   margin-bottom: 10px;
   transition: .3s ease;
-  opacity: 0;
+  opacity: 1;
   display: block;
 }
 
