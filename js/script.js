@@ -64,7 +64,7 @@ const listItems = document.querySelectorAll(".language-wrapper li");
 listItems.forEach(function(listItem) {
     const iconContainer = listItem.querySelector(".icon-container");
     const text= listItem.querySelector(".icon-text");
-    iconContainer.addEventListener("mouseover", function() {    
+    iconContainer.addEventListener("mouseover", function(e) {    
         text.style.opacity = "1";
     });
 });
