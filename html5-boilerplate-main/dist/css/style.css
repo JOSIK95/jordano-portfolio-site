@@ -118,9 +118,8 @@ h3 {
 #about h3 {
   font-family: 'Michroma';
   font-size: 2em;
-  color: #00ccff;
+  color: darkslategray;
   text-align: center;
-  text-shadow: 1px 1px #000;
 }
 
 
@@ -553,8 +552,7 @@ img:hover {
   #about h3 {
     font-family: 'Michroma';
     font-size: 2em;
-    color: #00ccff;
-    text-shadow: 2px 2px #000;
+    color: darkslategray;
   }
 
 
@@ -824,9 +822,8 @@ img:hover {
   #about h3 {
     font-family: 'Michroma';
     font-size: 2em;
-    color: #00ccff;
+    color: darkslategray;
     text-align: left;
-    text-shadow: 2px 2px #000;
   }
 
 

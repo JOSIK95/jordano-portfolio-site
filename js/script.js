@@ -46,8 +46,7 @@ const smileyFace = document.createElement("span");
 smileyFace.innerHTML = " :)";
 smileyFace.style.opacity = "0";
 smileyFace.style.transition = "opacity 0.3s ease-in-out";
-smileyFace.style.color = "slategray";
-
+smileyFace.style.color = "#00ccff";
 aboutHeading.appendChild(smileyFace);
 
 aboutHeading.addEventListener("mouseover", function () {
