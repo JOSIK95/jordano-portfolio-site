@@ -233,12 +233,14 @@ p.skills {
   font-size: 1.125em;
   font-family: sans-serif;
   color: ghostwhite;
+  text-shadow: 2px 2px #000;
 }
 
 p.tools {
   font-size: 1.125em;
   font-family: sans-serif;
   color: ghostwhite;
+  text-shadow: 2px 2px #000;
 }
 
 .content-wrapper {
@@ -655,12 +657,14 @@ img:hover {
     font-size: 1.5em;
     font-family: sans-serif;
     color: ghostwhite;
+    text-shadow: 2px 2px #000;
   }
 
   p.tools {
     font-size: 1.5em;
     font-family: sans-serif;
     color: ghostwhite;
+    text-shadow: 2px 2px #000;
   }
 
   .content-wrapper {
@@ -918,12 +922,14 @@ img:hover {
     font-size: 1.5em;
     font-family: sans-serif;
     color: ghostwhite;
+    text-shadow: 2px 2px #000;
   }
 
   p.tools {
     font-size: 1.5em;
     font-family: sans-serif;
     color: ghostwhite;
+    text-shadow: 2px 2px #000;
   }
 
   .content-wrapper {
