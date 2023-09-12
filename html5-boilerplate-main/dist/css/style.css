@@ -105,6 +105,10 @@ li:hover {
   text-shadow: 2px 2px gold;
 }
 
+header li:hover{
+  text-shadow: none;
+}
+
 .greeting-time {
   color: #00ccff;
   font-family: michroma;
@@ -123,7 +127,7 @@ h3 {
 #about h3 {
   font-family: 'Michroma';
   font-size: 2em;
-  color: darkslategray;
+  color: black;
   text-align: center;
 }
 
@@ -559,7 +563,7 @@ img:hover {
   #about h3 {
     font-family: 'Michroma';
     font-size: 2em;
-    color: darkslategray;
+    color: black;
   }
 
   li:hover {
@@ -570,6 +574,10 @@ img:hover {
   h2 {
     font-family: montserrat;
     font-size: 1.5em;
+  }
+
+  header li:hover{
+    text-shadow: none;
   }
 
   header h2 {
@@ -835,7 +843,7 @@ img:hover {
   #about h3 {
     font-family: 'Michroma';
     font-size: 2em;
-    color: darkslategray;
+    color: black;
     text-align: left;
   }
 
@@ -844,6 +852,10 @@ img:hover {
     text-shadow: 2px 2px gold;
   }
 
+  header li:hover{
+    text-shadow: none;
+  }
+  
   h2 {
     font-family: montserrat;
     font-size: 1.5em;
