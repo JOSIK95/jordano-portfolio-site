@@ -91,7 +91,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: #222;
 }
 
@@ -539,6 +539,9 @@ img:hover {
 @media (min-width:768px) and (max-width: 1199px) {
   /*---------------------------------Tablet Styles---------------------------------*/
 
+  body {
+    background-color: #222;
+  }
 
   h3 {
     font-family: 'Michroma';
@@ -806,6 +809,9 @@ img:hover {
 
   /*---------------------------------Desktop Styles---------------------------------*/
 
+  body {
+    background-color: #222;
+  }
 
   h3 {
     font-family: 'Michroma';
