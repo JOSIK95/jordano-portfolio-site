@@ -91,6 +91,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #222;
+}
+
 a:hover {
   color: #00ccff;
   transition: 0.3s ease;
@@ -412,7 +416,7 @@ ul.social-icons li {
 
 #work {
 
-  background-image: url("../img/iStock-1215741500.jpg");
+  background-image: url("../img/iStock_compressed.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -788,7 +792,7 @@ img:hover {
   }
 
   #work {
-    background-image: url("../img/iStock-1215741500.jpg");
+    background-image: url("../img/iStock_compressed.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
