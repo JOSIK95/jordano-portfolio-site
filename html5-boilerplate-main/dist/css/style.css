@@ -120,6 +120,7 @@ h3 {
   font-size: 2em;
   color: #00ccff;
   text-align: center;
+  text-shadow: 1px 1px #000;
 }
 
 
@@ -191,6 +192,7 @@ h1 {
   color: ghostwhite;
   font-size: 2em;
   transition: ease 0.3s;
+  text-shadow: 2px 2px #000;
 }
 
 
@@ -552,7 +554,7 @@ img:hover {
     font-family: 'Michroma';
     font-size: 2em;
     color: #00ccff;
-
+    text-shadow: 2px 2px #000;
   }
 
 
@@ -620,6 +622,7 @@ img:hover {
     font-family: montserrat;
     color: ghostwhite;
     font-size: 2em;
+    text-shadow: 2px 2px #000;
   }
 
   h3.portfolio-header {
@@ -823,6 +826,7 @@ img:hover {
     font-size: 2em;
     color: #00ccff;
     text-align: left;
+    text-shadow: 2px 2px #000;
   }
 
 
@@ -884,6 +888,7 @@ img:hover {
     font-family: montserrat;
     color: ghostwhite;
     font-size: 2em;
+    text-shadow: 2px 2px #000;
   }
 
   h3.portfolio-header {
