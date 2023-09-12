@@ -100,6 +100,11 @@ a:hover {
   transition: 0.3s ease;
 }
 
+li:hover {
+  transition: 0.3s ease;
+  text-shadow: 2px 2px gold;
+}
+
 .greeting-time {
   color: #00ccff;
   font-family: michroma;
@@ -557,6 +562,10 @@ img:hover {
     color: darkslategray;
   }
 
+  li:hover {
+    transition: 0.3s ease;
+    text-shadow: 2px 2px gold;
+  }
 
   h2 {
     font-family: montserrat;
@@ -830,6 +839,10 @@ img:hover {
     text-align: left;
   }
 
+  li:hover {
+    transition: 0.3s ease;
+    text-shadow: 2px 2px gold;
+  }
 
   h2 {
     font-family: montserrat;
