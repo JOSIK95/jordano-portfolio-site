@@ -101,8 +101,8 @@ a:hover {
 }
 
 li:hover {
-  transition: 0.3s ease;
-  text-shadow: 2px 2px gold;
+  transition: 0.2s ease;
+  text-shadow: 1px 1px gold;
 }
 
 header li:hover {
@@ -565,8 +565,8 @@ img:hover {
   }
 
   li:hover {
-    transition: 0.3s ease;
-    text-shadow: 2px 2px gold;
+    transition: 0.2s ease;
+    text-shadow: 1px 1px gold;
   }
 
   h2 {
@@ -707,13 +707,15 @@ img:hover {
     color: black;
 
   }
-
+  #about img{
+    width: 35%;
+    border-radius: 50%;
+  }
 
   .about-content-wrapper {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
-    flex-direction: row-reverse;
     padding: 25px;
     background-color: aliceblue;
   }
@@ -838,8 +840,8 @@ img:hover {
   }
 
   li:hover {
-    transition: 0.3s ease;
-    text-shadow: 2px 2px gold;
+    transition: 0.2s ease;
+    text-shadow: 1px 1px gold;
   }
 
   header li:hover {
@@ -976,13 +978,15 @@ img:hover {
     text-align: left;
   }
 
-
+  #about img{
+    width: 25%;
+    border-radius: 50%;
+  }
 
   .about-content-wrapper {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
-    flex-direction: row-reverse;
     padding: 25px;
     background-color: aliceblue;
   }
