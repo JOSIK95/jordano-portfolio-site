@@ -105,7 +105,7 @@ li:hover {
   text-shadow: 2px 2px gold;
 }
 
-header li:hover{
+header li:hover {
   text-shadow: none;
 }
 
@@ -407,6 +407,7 @@ ul.social-icons li {
 
 #contact {
   background-color: #000;
+  1
 }
 
 #contact p {
@@ -420,7 +421,7 @@ ul.social-icons li {
 
 #work {
 
-  background-image: url("../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+  background-image: url("../html5-boilerplate-main/dist/img/laptop-compressed.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -568,7 +569,7 @@ img:hover {
     font-size: 1.5em;
   }
 
-  header li:hover{
+  header li:hover {
     text-shadow: none;
   }
 
@@ -801,7 +802,7 @@ img:hover {
   }
 
   #work {
-    background-image: url("../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-image: url("../html5-boilerplate-main/dist/img/laptop-compressed.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -836,10 +837,10 @@ img:hover {
     text-shadow: 2px 2px gold;
   }
 
-  header li:hover{
+  header li:hover {
     text-shadow: none;
   }
-  
+
   h2 {
     font-family: montserrat;
     font-size: 1.5em;
@@ -1065,7 +1066,7 @@ img:hover {
   }
 
   #work {
-    background-image: url("../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-image: url("../html5-boilerplate-main/dist/img/laptop-compressed.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
