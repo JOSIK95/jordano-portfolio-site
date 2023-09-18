@@ -282,12 +282,17 @@ img {
 
 .about-content-wrapper {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
   justify-content: space-evenly;
-  flex-direction: row-reverse;
   padding: 25px;
   background-color: aliceblue;
 }
+
+#about img{
+  border-radius: 50%;
+  width: 90%;
+}
+
 
 .about-text {
   font-size: 1.125em;
