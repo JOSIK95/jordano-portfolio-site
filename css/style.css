@@ -322,7 +322,7 @@ span {
       hsl(344deg 0% 53%) 79%,
       hsl(0deg 0% 59%) 100%);
 
-  font-size: 1.125em;
+  font-size: 1.5em;
   font-family: sans-serif;
   border-radius: 12px;
   text-align: center;
@@ -331,6 +331,8 @@ span {
   border-color: ghostwhite;
   padding: 3px;
   transition: .3s ease;
+  padding: 0, 20px, 0, 20px;
+
 }
 
 .button:hover {
@@ -352,6 +354,8 @@ span {
   border-radius: 12px;
   border-style: solid;
   padding: 3px;
+  border-width: 2px;
+  padding: 0, 20px, 0, 20px;
 }
 
 
@@ -412,7 +416,7 @@ ul.social-icons li {
 
 #contact {
   background-color: #000;
-  1
+  
 }
 
 #contact p {
