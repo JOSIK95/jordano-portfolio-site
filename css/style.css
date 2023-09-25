@@ -272,6 +272,8 @@ img {
   box-shadow: 0 4px 8px;
   border-radius: 12px;
   transition: 0.3s ease;
+  text-decoration: none;
+  color: black;
 }
 
 #about h2 {
@@ -288,7 +290,7 @@ img {
   background-color: aliceblue;
 }
 
-#about img{
+#about img {
   border-radius: 50%;
   width: 90%;
 }
@@ -331,8 +333,8 @@ span {
   border-color: ghostwhite;
   padding: 3px;
   transition: .3s ease;
-  padding: 0, 20px, 0, 20px;
-
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .button:hover {
@@ -416,7 +418,7 @@ ul.social-icons li {
 
 #contact {
   background-color: #000;
-  
+
 }
 
 #contact p {
@@ -711,7 +713,8 @@ img:hover {
     color: black;
 
   }
-  #about img{
+
+  #about img {
     width: 35%;
     border-radius: 50%;
   }
@@ -982,7 +985,7 @@ img:hover {
     text-align: left;
   }
 
-  #about img{
+  #about img {
     width: 20%;
     border-radius: 50%;
   }
