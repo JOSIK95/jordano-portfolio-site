@@ -122,7 +122,6 @@ header li:hover {
   transition: ease 0.3s;
 }
 
-
 h3 {
   font-family: 'Michroma';
   font-size: 1.125em;
@@ -134,7 +133,6 @@ h3 {
   color: black;
   text-align: center;
 }
-
 
 h2 {
   font-family: montserrat;
@@ -187,7 +185,6 @@ h1 {
   justify-content: center;
 }
 
-
 #work,
 #developer-skills,
 #contact {
@@ -196,7 +193,6 @@ h1 {
   align-items: center;
   align-content: center;
   justify-content: center;
-
 }
 
 #work h2 {
@@ -212,7 +208,6 @@ h1 {
   padding-bottom: 70px;
 }
 
-
 h3.portfolio-header {
   font-size: 2em;
   text-decoration: underline;
@@ -225,7 +220,6 @@ h3.portfolio-header {
 .portfolio-header-hover {
   font-size: 2.125em;
 }
-
 
 .portfolio-piece {
   display: flex;
@@ -266,7 +260,6 @@ p.tools {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .portfolio-wrapper {
@@ -289,7 +282,6 @@ img {
   text-align: center;
 }
 
-
 .about-content-wrapper {
   display: flex;
   flex-direction: column;
@@ -302,7 +294,6 @@ img {
   border-radius: 50%;
   width: 90%;
 }
-
 
 .about-text {
   font-size: 1.125em;
@@ -367,7 +358,6 @@ span {
   padding: 5px 15px 5px 15px;
 }
 
-
 a {
   text-decoration: none;
   color: ghostwhite;
@@ -386,28 +376,26 @@ a {
   padding-inline-start: 0px;
   margin-block-start: 0.25em;
   margin-block-end: 0.25em;
-
 }
 
 .language-wrapper li {
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 3px;
 }
-
 
 h3.skills-header {
   font-size: 2em;
   text-decoration: underline;
   color: ghostwhite;
+  padding: 40px 0px 40px 0px; 
 }
-
 
 .tool-wrapper {
   font-size: 1.5em;
-  margin-bottom: 20px;
   color: ghostwhite;
   text-align: center;
+  padding: 30px 0px 30px 0px;
 }
 
 #contact p {
@@ -425,12 +413,10 @@ ul.social-icons li {
 
 #contact {
   background-color: #000;
-
 }
 
 #contact p {
   color: ghostwhite;
-
 }
 
 #contact h3 {
@@ -438,25 +424,20 @@ ul.social-icons li {
 }
 
 #work {
-
   background-image: url("../html5-boilerplate-main/dist/img/laptop-compressed.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-
 .hello-hover {
   color: rgb(100, 250, 227);
   font-size: 2.125em;
-
 }
 
 .greeting-time-hover {
   color: rgb(100, 250, 227);
   font-size: 2.125em;
-
 }
 
 img:hover {
@@ -634,7 +615,6 @@ img:hover {
     justify-content: center;
   }
 
-
   #work,
   #developer-skills,
   #contact {
@@ -654,8 +634,8 @@ img:hover {
   }
 
   #work{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 
   h3.portfolio-header {
@@ -723,7 +703,6 @@ img:hover {
 
   #about h2 {
     color: black;
-
   }
 
   #about img {
@@ -759,7 +738,6 @@ img:hover {
     margin-bottom: 30px;
   }
 
-
   a {
     text-decoration: none;
     color: ghostwhite;
@@ -778,7 +756,6 @@ img:hover {
     padding-inline-start: 0px;
     margin-block-start: 0.25em;
     margin-block-end: 0.25em;
-
   }
 
   .language-wrapper li {
@@ -786,19 +763,18 @@ img:hover {
     margin-right: 50px;
   }
 
-
   h3.skills-header {
     font-size: 2em;
     text-decoration: underline;
     color: ghostwhite;
+    padding: 70px 0px 70px 0px;
   }
-
 
   .tool-wrapper {
     font-size: 1.5em;
-    margin-bottom: 20px;
     color: ghostwhite;
     text-align: center;
+    padding: 70px 0px 70px 0px;
   }
 
   #contact p {
@@ -820,7 +796,6 @@ img:hover {
 
   #contact p {
     color: ghostwhite;
-
   }
 
   #contact h3 {
@@ -833,8 +808,6 @@ img:hover {
     background-position: center;
     background-repeat: no-repeat;
   }
-
-
 }
 
 @media (min-width:1200px) {
@@ -910,7 +883,6 @@ img:hover {
     justify-content: center;
   }
 
-
   #developer-skills,
   #contact {
     display: flex;
@@ -918,7 +890,6 @@ img:hover {
     align-items: center;
     align-content: center;
     justify-content: center;
-
   }
 
   #work h2 {
@@ -930,7 +901,7 @@ img:hover {
 
   #work{
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
   }
 
   h3.portfolio-header {
@@ -978,7 +949,6 @@ img:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .portfolio-wrapper {
@@ -1037,7 +1007,6 @@ img:hover {
     font-variant: all-small-caps;
   }
 
-
   a {
     text-decoration: none;
     color: ghostwhite;
@@ -1060,18 +1029,17 @@ img:hover {
     margin-right: 60px;
   }
 
-
   h3.skills-header {
     font-size: 2em;
     text-decoration: underline;
     color: ghostwhite;
+    padding: 70px 0px 70px 0px;
   }
-
 
   .tool-wrapper {
     font-size: 1.5em;
-    margin-bottom: 50px;
     color: ghostwhite;
+    padding: 70px 0px 70px 0px;
   }
 
   #contact p {
@@ -1106,7 +1074,6 @@ img:hover {
     background-position: center;
     background-repeat: no-repeat;
   }
-
 }
 
 @media print,
