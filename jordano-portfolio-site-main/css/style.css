@@ -1,0 +1,1162 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*---------------------------General styles------------------------------*/
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #222;
+}
+
+a:hover {
+  color: #00ccff;
+  transition: 0.3s ease;
+}
+
+a img{
+  color: black;
+}
+
+li:hover {
+  transition: 0.2s ease;
+  text-shadow: 1px 1px gold;
+}
+
+header li:hover {
+  text-shadow: none;
+}
+
+.greeting-time {
+  color: #00ccff;
+  font-family: michroma;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 50px;
+  transition: ease 0.3s;
+}
+
+h3 {
+  font-family: 'Michroma';
+  font-size: 1.125em;
+}
+
+#about h3 {
+  font-family: 'Michroma';
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-family: montserrat;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+header h2 {
+  color: ghostwhite;
+  text-align: center;
+  margin: 20px;
+}
+
+header span {
+  font-style: italic;
+}
+
+header {
+  background-color: black;
+}
+
+nav li {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+nav ul {
+  padding-inline-start: 0px;
+  text-transform: uppercase;
+}
+
+.content-wrapper li {
+  display: inline-block;
+}
+
+h1 {
+  font-family: michroma;
+  font-size: 2em;
+  color: #00ccff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  transition: ease 0.3s;
+}
+
+.home-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#work,
+#developer-skills,
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#work h2 {
+  font-family: montserrat;
+  color: ghostwhite;
+  font-size: 2em;
+  transition: ease 0.3s;
+  text-shadow: 2px 2px #000;
+}
+
+#work{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h3.portfolio-header {
+  font-size: 2em;
+  text-decoration: underline;
+  color: ghostwhite;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  transition: ease 0.3s;
+}
+
+.portfolio-header-hover {
+  font-size: 2.125em;
+}
+
+.portfolio-piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p.project-description {
+  font-size: 1.125em;
+  font-family: sans-serif;
+  color: ghostwhite;
+  background-color: rgba(10, 5, 0, .5);
+  border: solid;
+  border-radius: 12px;
+  border-color: #00ccff;
+  padding: 20px;
+  width: 80%;
+  text-align: left;
+}
+
+p.skills {
+  font-size: 1.125em;
+  font-family: sans-serif;
+  color: ghostwhite;
+  text-shadow: 2px 2px #000;
+}
+
+p.tools {
+  font-size: 1.125em;
+  font-family: sans-serif;
+  color: ghostwhite;
+  text-shadow: 2px 2px #000;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-wrapper {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  margin-bottom: 30px;
+}
+
+#about h2 {
+  color: black;
+  text-align: center;
+}
+
+.about-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 25px;
+  background-color: aliceblue;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 90%;
+}
+
+.about-text {
+  font-size: 1.125em;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.about-span {
+  text-align: center;
+}
+
+span {
+  font-size: 1.125em;
+  font-style: italic;
+}
+
+.button {
+  background-image: linear-gradient(45deg,
+      hsl(0deg 0% 9%) 0%,
+      hsl(344deg 0% 14%) 21%,
+      hsl(344deg 0% 19%) 30%,
+      hsl(344deg 0% 24%) 39%,
+      hsl(344deg 0% 29%) 46%,
+      hsl(344deg 0% 35%) 54%,
+      hsl(344deg 0% 41%) 61%,
+      hsl(344deg 0% 47%) 69%,
+      hsl(344deg 0% 53%) 79%,
+      hsl(0deg 0% 59%) 100%);
+
+  font-size: 1.5em;
+  font-family: sans-serif;
+  border-radius: 12px;
+  text-align: center;
+  font-variant: all-small-caps;
+  margin-bottom: 30px;
+  border-color: ghostwhite;
+  padding: 3px;
+  transition: .3s ease;
+  padding: 5px 15px 5px 15px;
+}
+
+.button:hover {
+  background-image: linear-gradient(225deg,
+      hsl(0deg 0% 9%) 0%,
+      hsl(344deg 0% 14%) 21%,
+      hsl(344deg 0% 19%) 30%,
+      hsl(344deg 0% 24%) 39%,
+      hsl(344deg 0% 29%) 46%,
+      hsl(344deg 0% 35%) 54%,
+      hsl(344deg 0% 41%) 61%,
+      hsl(344deg 0% 47%) 69%,
+      hsl(344deg 0% 53%) 79%,
+      hsl(0deg 0% 59%) 100%);
+
+
+  transition: .3s ease;
+  border-color: ghostwhite;
+  border-radius: 12px;
+  border-style: solid;
+  padding: 3px;
+  border-width: 2px;
+  padding: 5px 15px 5px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+#developer-skills {
+  background-color: black;
+}
+
+#developer-skills ul {
+  list-style: none;
+  font-size: 8em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em;
+}
+
+.language-wrapper li {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+h3.skills-header {
+  font-size: 2em;
+  text-decoration: underline;
+  color: ghostwhite;
+  padding: 40px 0px 40px 0px; 
+}
+
+.tool-wrapper {
+  font-size: 1.5em;
+  color: ghostwhite;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+
+#contact p {
+  text-align: center;
+}
+
+h3.contact-title {
+  text-align: center;
+}
+
+ul.social-icons li {
+  margin-right: 40px;
+  font-size: 3em;
+}
+
+#contact {
+  background-color: #000;
+}
+
+#contact p {
+  color: ghostwhite;
+}
+
+#contact h3 {
+  color: #adadad;
+}
+
+#work {
+  background-image: url("../html5-boilerplate-main/dist/img/laptop-compressed.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hello-hover {
+  color: rgb(100, 250, 227);
+  font-size: 2.125em;
+}
+
+.greeting-time-hover {
+  color: rgb(100, 250, 227);
+  font-size: 2.125em;
+}
+
+img:hover {
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+.icon-text {
+  font-size: .125em;
+  font-family: michroma;
+  color: ghostwhite;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: .3s ease;
+  opacity: 1;
+  display: block;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media (min-width:768px) and (max-width: 1199px) {
+  /*---------------------------------Tablet Styles---------------------------------*/
+
+  body {
+    background-color: #222;
+  }
+
+  h3 {
+    font-family: 'Michroma';
+    font-size: 1.125em;
+  }
+
+  #about h3 {
+    font-family: 'Michroma';
+    font-size: 2em;
+    color: black;
+  }
+
+  li:hover {
+    transition: 0.2s ease;
+    text-shadow: 1px 1px gold;
+  }
+
+  h2 {
+    font-family: montserrat;
+    font-size: 1.5em;
+  }
+
+  header li:hover {
+    text-shadow: none;
+  }
+
+  header h2 {
+    color: ghostwhite;
+    text-align: center;
+    margin: 20px;
+  }
+
+  header span {
+    font-style: italic;
+  }
+
+  header {
+    background-color: black;
+  }
+
+  nav li {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  nav ul {
+    padding-inline-start: 0px;
+  }
+
+  .content-wrapper li {
+    display: inline-block;
+  }
+
+  h1 {
+    font-family: michroma;
+    font-size: 2em;
+    color: #00ccff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #work,
+  #developer-skills,
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+  #work h2 {
+    font-family: montserrat;
+    color: ghostwhite;
+    font-size: 2em;
+    text-shadow: 2px 2px #000;
+  }
+
+  #work{
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  h3.portfolio-header {
+    font-size: 2em;
+    text-decoration: underline;
+    color: ghostwhite;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .portfolio-piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p.project-description {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: ghostwhite;
+    background-color: rgba(10, 5, 0, .5);
+    border: solid;
+    border-radius: 12px;
+    border-color: #0cf;
+    padding: 20px;
+    width: 80%;
+    text-align: left;
+  }
+
+  p.skills {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: ghostwhite;
+    text-shadow: 2px 2px #000;
+  }
+
+  p.tools {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: ghostwhite;
+    text-shadow: 2px 2px #000;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .portfolio-wrapper {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px;
+    border-radius: 12px;
+  }
+
+  #about h2 {
+    color: black;
+  }
+
+  #about img {
+    width: 35%;
+    border-radius: 50%;
+  }
+
+  .about-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    background-color: aliceblue;
+  }
+
+  .about-text {
+    font-size: 1.125em;
+    font-family: sans-serif;
+  }
+
+  span {
+    font-size: 1.125em;
+    font-style: italic;
+  }
+
+  .button {
+    background-color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border-radius: 12px;
+    text-align: center;
+    font-variant: all-small-caps;
+    margin-bottom: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: ghostwhite;
+  }
+
+  #developer-skills {
+    background-color: black;
+  }
+
+  #developer-skills ul {
+    list-style: none;
+    font-size: 8em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+  }
+
+  .language-wrapper li {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h3.skills-header {
+    font-size: 2em;
+    text-decoration: underline;
+    color: ghostwhite;
+    padding: 70px 0px 70px 0px;
+  }
+
+  .tool-wrapper {
+    font-size: 1.5em;
+    color: ghostwhite;
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+  }
+
+  #contact p {
+    text-align: center;
+  }
+
+  h3.contact-title {
+    text-align: center;
+  }
+
+  ul.social-icons li {
+    margin-right: 40px;
+    font-size: 3em;
+  }
+
+  #contact {
+    background-color: #000;
+  }
+
+  #contact p {
+    color: ghostwhite;
+  }
+
+  #contact h3 {
+    color: #adadad;
+  }
+
+  #work {
+    background-image: url("../html5-boilerplate-main/dist/img/laptop-compressed.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width:1200px) {
+
+
+  /*---------------------------------Desktop Styles---------------------------------*/
+
+  body {
+    background-color: #222;
+  }
+
+  h3 {
+    font-family: 'Michroma';
+    font-size: 1.125em;
+  }
+
+  #about h3 {
+    font-family: 'Michroma';
+    font-size: 2em;
+    color: black;
+    text-align: left;
+  }
+
+  li:hover {
+    transition: 0.2s ease;
+    text-shadow: 1px 1px gold;
+  }
+
+  header li:hover {
+    text-shadow: none;
+  }
+
+  h2 {
+    font-family: montserrat;
+    font-size: 1.5em;
+  }
+
+  header h2 {
+    color: ghostwhite;
+  }
+
+  header span {
+    font-style: italic;
+  }
+
+  header {
+    background-color: black;
+  }
+
+  nav li {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  nav ul {
+    padding-inline-start: 0px;
+  }
+
+  .content-wrapper li {
+    display: inline-block;
+  }
+
+  h1 {
+    font-family: michroma;
+    font-size: 2em;
+    color: #00ccff;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+
+  .home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #developer-skills,
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  #work h2 {
+    font-family: montserrat;
+    color: ghostwhite;
+    font-size: 2em;
+    text-shadow: 2px 2px #000;
+  }
+
+  #work{
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+
+  h3.portfolio-header {
+    font-size: 2em;
+    text-decoration: underline;
+    color: ghostwhite;
+  }
+
+  .portfolio-piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p.project-description {
+    font-size: 1.125em;
+    font-family: sans-serif;
+    color: ghostwhite;
+    background-color: rgba(10, 5, 0, .5);
+    border: solid;
+    border-radius: 12px;
+    border-color: #0cf;
+    padding: 20px;
+    width: 70%;
+    text-align: left;
+  }
+
+  p.skills {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: ghostwhite;
+    text-shadow: 2px 2px #000;
+  }
+
+  p.tools {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: ghostwhite;
+    text-shadow: 2px 2px #000;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: flex-start;
+  }
+
+  img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px;
+    border-radius: 12px;
+  }
+
+  #about h2 {
+    color: black;
+    text-align: left;
+  }
+
+  #about img {
+    width: 20%;
+    border-radius: 50%;
+  }
+
+  .about-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    background-color: aliceblue;
+  }
+
+  .about-text {
+    font-size: 1.125em;
+    font-family: sans-serif;
+    text-align: left;
+    width: 750px;
+  }
+
+  span {
+    font-size: 1.125em;
+    font-style: italic;
+  }
+
+  .button {
+    background-color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border-radius: 12px;
+    text-align: center;
+    font-variant: all-small-caps;
+  }
+
+  a {
+    text-decoration: none;
+    color: ghostwhite;
+  }
+
+  #developer-skills {
+    background-color: black;
+  }
+
+  #developer-skills ul {
+    list-style: none;
+    font-size: 8em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .language-wrapper li {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .language-wrapper{
+    padding: 30px 0px 30px 0px;
+  }
+
+  h3.skills-header {
+    font-size: 2em;
+    text-decoration: underline;
+    color: ghostwhite;
+    padding: 70px 0px 70px 0px;
+  }
+
+  .tool-wrapper {
+    font-size: 1.5em;
+    color: ghostwhite;
+    padding: 70px 0px 70px 0px;
+  }
+
+  #contact p {
+    text-align: center;
+  }
+
+  h3.contact-title {
+    text-align: center;
+  }
+
+  ul.social-icons li {
+    margin-right: 40px;
+    font-size: 3em;
+  }
+
+  #contact {
+    background-color: #000;
+  }
+
+  #contact p {
+    color: ghostwhite;
+
+  }
+
+  #contact h3 {
+    color: #adadad;
+  }
+
+  #work {
+    background-image: url("../html5-boilerplate-main/dist/img/laptop-compressed.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  body {
+    background: none;
+  }
+
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
