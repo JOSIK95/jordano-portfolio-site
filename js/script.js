@@ -1,9 +1,9 @@
 // get current date/time
-var greetingTime = document.querySelector(".greeting-time");
+const greetingTime = document.querySelector(".greeting-time");
 
-var time = new Date().getHours();
+const time = new Date().getHours();
 
-var greeting = "Hello!"
+let greeting = "Hello!"
 if (time < 12) {
     greeting = "Good morning";
 } else if (time <= 13) {
@@ -19,22 +19,24 @@ greetingTime.innerHTML = `<div>${greeting}</div>`;
 
 // h1
 
-var headlineHover = document.querySelector(".hello");
+let headlineHover = document.querySelector(".hello");
+
 headlineHover.addEventListener("mouseover", function () {
     headlineHover.classList.add("hello-hover");
 });
-var headlineHover = document.querySelector(".hello");
+
 headlineHover.addEventListener("mouseout", function () {
     headlineHover.classList.remove("hello-hover");
 });
 
 // time of day greeting hover
 
-var timeOfDayHover = document.querySelector(".greeting-time");
+let timeOfDayHover = document.querySelector(".greeting-time");
+
 timeOfDayHover.addEventListener("mouseover", function () {
     timeOfDayHover.classList.add("greeting-time-hover");
 });
-var timeOfDayHover = document.querySelector(".greeting-time");
+
 timeOfDayHover.addEventListener("mouseout", function () {
     timeOfDayHover.classList.remove("greeting-time-hover");
 });
@@ -55,6 +57,7 @@ aboutHeading.addEventListener("mouseover", function () {
 aboutHeading.addEventListener("mouseout", function () {
     smileyFace.style.opacity = "0";
 });
+
 
 
 
